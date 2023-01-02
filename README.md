@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Developed with 💙 by Eren</h1>
+    <h1>Developed with 💙 by Eren</h1> 
 </div>
 
 # 📜 Kullanım

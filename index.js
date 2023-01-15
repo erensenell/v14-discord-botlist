@@ -382,4 +382,3 @@ client.on('interactionCreate', async interaction => {
     }
 })
 
-// Lourity Code + Ayarlamalı + Slash Botlist Botu - PAYLAŞILMASI KESİNLİKLE YASAKTIR!!

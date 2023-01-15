@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 const louritydb = require("croxydb");
 const { messageLink } = require("discord.js");
-// Lourity Code + Ayarlamalı + Slash Botlist Botu - PAYLAŞILMASI KESİNLİKLE YASAKTIR!!
 module.exports = {
     name: "botlist-ayarla",
     description: "Botlist sistemini ayarlarsınız!",
@@ -93,7 +92,7 @@ module.exports = {
             .setColor("Green")
             .setTitle("Başarıyla Ayarlandı!")
             .setDescription("Botlist sistemi başarıyla ayarlandı!")
-            .setFooter({ text: "Lourity Tester" })
+            .setFooter({ text: "Yazılım Koloniği" })
         interaction.reply({ embeds: [basarili], components: [row1] })
 
         const log = interaction.options.getChannel('botlist-log')
@@ -113,4 +112,3 @@ module.exports = {
         louritydb.set(`ayrildiLog_${interaction.guild.id}`, ayrildiLog.id)
     }
 }
-// Lourity Code + Ayarlamalı + Slash Botlist Botu - PAYLAŞILMASI KESİNLİKLE YASAKTIR!!

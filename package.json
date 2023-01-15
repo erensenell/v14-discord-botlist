@@ -1,12 +1,12 @@
 {
-  "name": "lourity",
+  "name": "erensenell",
   "version": "9.9.9",
-  "description": "Lourity",
+  "description": "Bot List",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Lourity",
+  "author": "Eren#0001",
   "license": "MIT",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",

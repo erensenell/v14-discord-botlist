@@ -12,7 +12,7 @@ const client = new Client({
     retryLimit: 3
 });
 
-// Lourity Code + Ayarlamalı + Slash Botlist Botu - PAYLAŞILMASI KESİNLİKLE YASAKTIR!!
+//erensenell
 
 global.client = client;
 client.commands = (global.commands = []);

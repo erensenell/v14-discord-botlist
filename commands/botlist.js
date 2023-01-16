@@ -66,7 +66,7 @@ module.exports = {
             .setColor("Red")
             .setTitle("Yetersiz Yetki!")
             .setDescription("> Bu komutu kullanabilmek için `Yönetici` yetkisine sahip olmalısın!")
-            .setFooter({ text: "Lourity Tester" })
+            .setFooter({ text: "Yazılım Koloniği" })
 
         if (!interaction.member.permissions.has(Discord.PermissionsBitField.Flags.Administrator)) return interaction.reply({ embeds: [yetki], ephemeral: true })
 
